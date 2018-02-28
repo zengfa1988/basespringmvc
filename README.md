@@ -1,0 +1,2 @@
+# basespringmvc
+这是用springMVC搭建的SSH基本项目框架，数据源采用MySQL分布式事物，可以练习使用spring分布式数据库配置
