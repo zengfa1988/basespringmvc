@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>淘实惠管理系统</title>
+    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache"> 
+	<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache"> 
+	<meta HTTP-EQUIV="Expires" CONTENT="0"> 
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="this is my page">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link type="text/css" rel="stylesheet" href="static/js/easyui/themes/default/easyui.css" />
+	<link type="text/css" rel="stylesheet" href="static/js/easyui/themes/icon.css" />
+	<link type="text/css" rel="stylesheet" href="static/home/css/tsh.easyui.extent.css" />
+	<link type="text/css" rel="stylesheet" href="static/home/css/home.css" />
+</head>
+<body>
+	<div id="container">
+		<!-- 侧边栏开始 -->
+		<div id="sidebar">
+			<div id="logo"></div>
+			<div id="userInfo">
+				<table>
+					<tr>
+						<td class="td1"><img src="static/home/images/guest.png"></td>
+						<td  class="td2">
+							<span id="userName" style="word-break: break-all;white-space: pre-wrap;">admin</span>
+							<a class="logout J_Logout"  href="../usercentre/outLogin.do">退出</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<!-- 菜单开始 -->
+			<div id="menu" class="addTab">
+				<!-- <div class="loading"><p class="bg-warning " style="padding:10px;color:#fff ;text-align:center">菜单加载中...</p></div> -->
+				<div class="sysMenu">
+					<ul>
+						<li class="open">
+							<div class="link">
+								<!-- i-menu-0、i-menu-1、i-menu-2、i-menu-3等等在tsh.easyui.extent.css配置 -->
+								<i class="i-menu i-menu-0"></i>系统管理<i class="i-arrow-down"></i>
+							</div>
+							<ul style="display: block;">
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)" src="page/user/list.html">用户管理</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)" src="page/user/list.html">安全中心</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">用户组管理</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">序列号白名单</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">商家权限管理</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">佣金设置</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="link">
+								<i class="i-menu i-menu-1"></i>主题管理<i class="i-arrow-down"></i>
+							</div>
+							<ul>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">疯狂秒杀</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">特色馆</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">顾乡好货</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">零售主题</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">批发主题</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">自定义主题</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">子主题</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="link">
+								<i class="i-menu i-menu-2"></i>主题管理<i class="i-arrow-down"></i>
+							</div>
+							<ul>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">疯狂秒杀</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">特色馆</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">顾乡好货</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">零售主题</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">批发主题</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">自定义主题</a></li>
+								<li><a href="javascript:void(0);" onclick="javascript:void(0)">子主题</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 菜单结束 -->
+		</div>
+		<!-- 侧边栏结束 -->
+		
+		<!-- 主体开始 -->
+		<div id="wrapper">
+			<div id="main">
+				<div id="header-right">
+					<div style="float:left;margin-top:4px;">
+						<span  title="系统知识库" ><a href="http://www.tsh365.icoc.in/index.jsp" target="_blank" >系统知识库</a></span>
+						|&nbsp;
+						<span  title="商品售后请按1，系统问题请按2，电子屏售后请按3，超级返请按6">客服咨询:400-833-2882</span>
+					</div>
+				</div>
+				<div id="tabs" class="easyui-tabs" fit="true" border="false">
+					<div title="首页" style="padding-bottom: 30px">
+						<div id="welcome_auc" style="margin:10px; font-size:18px; height:100%;overflow:auto;padding-bottom: 30px">欢迎</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主体结束 -->
+	</div>
+	
+	<div id="mm" class="easyui-menu cs-tab-menu">
+        <div id="mm-tabupdate">刷新</div>
+        <div class="menu-sep"></div>
+        <div id="mm-tabclose">关闭</div>
+        <div id="mm-tabcloseother">关闭其他</div>
+        <div id="mm-tabcloseall">关闭全部</div>
+    </div>
+</body>
+<script type="text/javascript" src="static/js/jquery.min.js"></script>
+<script type="text/javascript" src="static/js/easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="static/home/js/home.js"></script>
+</html>
